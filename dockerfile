@@ -1,6 +1,6 @@
 # Derived from official mysql image (our base image)
 FROM mysql
-# Add a database
+# Add a database and root password
 ENV MYSQL_DATABASE=clients MYSQL_ROOT_PASSWORD=root
 
 # Add the content of the sql-scripts/ directory to your image
