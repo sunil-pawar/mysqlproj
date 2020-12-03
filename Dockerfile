@@ -1,4 +1,6 @@
+#renamed dockerfile to Dockerfile
 # Derived from official mysql image (our base image)
+
 FROM mysql
 # Add a database and root password
 ENV MYSQL_DATABASE=clients MYSQL_ROOT_PASSWORD=root
